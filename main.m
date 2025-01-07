@@ -20,5 +20,7 @@ iterativni_optimalizace(tridy, stredy, J);
 %% 4
 % a)
 bayes(tridy, stredy);
+% b)
+minimalni_vzdalenost(tridy, stredy);
 %ulozeni_figur
 toc
