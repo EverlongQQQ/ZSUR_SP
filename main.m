@@ -24,5 +24,13 @@ bayes(tridy, stredy);
 minimalni_vzdalenost(tridy, stredy);
 %% c)
 nejblizsi_soused(tridy, stredy);
+%% d)
+rosenblattuv_algoritmus(tridy, stredy);
+konstantni_prirustky(tridy, stredy, 1, 0.2);
+konstantni_prirustky(tridy, stredy, 1, 1);
+konstantni_prirustky(tridy, stredy, 1, 3);
+upravene_konstantni_prirustky(tridy, stredy, 1, 0.2);
+upravene_konstantni_prirustky(tridy, stredy, 1, 1);
+upravene_konstantni_prirustky(tridy, stredy, 1, 3);
 %ulozeni_figur
 toc
