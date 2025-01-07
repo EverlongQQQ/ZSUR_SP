@@ -17,5 +17,8 @@ pocet_trid = round(pocet_trid);
 %% 3
 iterativni_optimalizace(tridy_k, stredy_k, J_k);
 iterativni_optimalizace(tridy, stredy, J);   
+%% 4
+% a)
+bayes(tridy, stredy);
 %ulozeni_figur
 toc
