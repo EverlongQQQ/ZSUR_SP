@@ -109,6 +109,6 @@ for i = 1:pocet_shluku
     surf(x,y,gauss{i})
     hold on
 end
-caxis([0 0.1])
+clim([0 0.1])
 title('Gaussovo rozdělení')
 end

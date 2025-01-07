@@ -33,7 +33,8 @@ while true
         matice(i) = min(tmp(:,i)); % uchované minimální vzdálenosti
     end
     
-    C = combnk(1:size(mi,1),2); % kombinace všech středů
+    C = nchoosek(1:size(mi,1),2); % kombinace všech středů
+    %C = combnk(1:size(mi,1),2); % kombinace všech středů
     avg_stred = 0;
     for i = 1:size(C,1)
         avg_stred = avg_stred + sum(mi(C(i,1),:) - mi(C(i,2),:)).^2;
